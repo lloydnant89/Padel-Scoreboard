@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Padel/Tennis Scoreboard</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:700" rel="stylesheet">
+  <style>
+    body { font-family: Roboto, Arial, sans-serif; text-align: center; margin: 2rem; }
+    h1 { margin-bottom: 1rem; }
+    .score { font-size: 3rem; margin: 1rem 0; }
+    button { font-size: 1.2rem; margin: 1rem; padding: 1rem 2rem; cursor: pointer; }
+    .player-label { font-weight: bold; font-size: 1.2rem; margin-top: 0.5rem; }
+    #status { margin-top: 2rem; font-size: 1.3rem; }
+  </style>
+  <script src="score.js" defer></script>
+</head>
+<body>
+  <h1>Padel/Tennis Scoreboard</h1>
+  <div>
+    <div class="player-label">Spieler A</div>
+    <button id="buttonA">Punkt +</button>
+    <div id="scoreA" class="score">0</div>
+  </div>
+  <div>
+    <div class="player-label">Spieler B</div>
+    <button id="buttonB">Punkt +</button>
+    <div id="scoreB" class="score">0</div>
+  </div>
+  <div id="status"></div>
+</body>
+</html>
