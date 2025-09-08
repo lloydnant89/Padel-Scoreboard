@@ -211,7 +211,7 @@
      border-color: #073b3a;
  }
 
- .score:hover {
+ .score:active {
      background: #0b6e4f;
      color: #e8f42c;
      box-shadow: 0 0 12px #0003;
